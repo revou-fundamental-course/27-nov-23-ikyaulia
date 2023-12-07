@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Segitiga</title>
+</head>
+<body>
+
+    <header>
+        <h1>Website Kalkulator Matematik (Segitiga)</h1>
+    </header>
+      
+    <div class="triangle-info">
+            <img src="triangle_image.png" alt="Triangle">
+
+    <section id="luas-container">
+        <h2 style="background-color: rgb(138, 80, 119);">LUAS SEGITIGA</h2>
+        <input type="number" id="alas" placeholder="Masukkan alas">
+        <input type="number" id="tinggi" placeholder="Masukkan tinggi">
+        <button onclick="hitungLuas()">Hitung Luas</button>
+        <div id="hasil-luas"></div>
+        <button type="reset" id="reset-luas" onclick="resetLuas()">Reset</button>
+    </form>
+    </section>
+
+    <section id="keliling-container">
+        <h2 style="background-color: rgb(175, 123, 132);">KELILING SEGITIGA</h2>
+        <input type="number" id="sisi1" placeholder="Masukkan sisi I">
+        <input type="number" id="sisi2" placeholder="Masukkan sisi II">
+        <input type="number" id="sisi3" placeholder="Masukkan sisi III">
+        <button onclick="hitungKeliling()">Hitung Keliling</button>
+        <div id="hasil-keliling"></div>
+        <button type="reset" id="reset-keliling" onclick="resetKeliling()">Reset</button>
+        </form>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
